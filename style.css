@@ -1,0 +1,80 @@
+.menu{
+display: flex;
+justify-content:space-between ; 
+background-color: #ffffff; 
+padding: 12x;
+font-size: 15px;
+font-family: sans-serif;
+color: #FFFFFF;
+
+
+}
+.head{
+      
+    background-color:white;
+    border:solid;
+    
+     }
+     .grid {
+        background: darkred;
+        background-color: #F0F8FF;
+        display: flex;
+        justify-content: last baseline;
+        flex-direction: row;
+        text-align: left;
+        flex-wrap: wrap;
+      }
+      .camel {
+        border: 1px solid rgb(26, 250, 127);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 200px;
+        height: 500px;
+        padding: 50px;
+        background-color:#f3b60d;
+      }
+      .chameleon {
+        border: 1px solid rgb(8, 114, 175);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 200px;
+        height: 500px;
+        padding: 50px;
+        background-color:#45f16a;
+      }
+      .Frog {
+        border: 1px solid rgb(18, 107, 241);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 200px;
+        height: 500px;
+        padding: 50px;
+        background-color:#0f7de4;
+      }
+      .Crane {
+        border: 1px solid rgb(133, 41, 238);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 200px;
+        height: 500px;
+        padding: 50px;
+        background-color:#482ce4;
+      }
+      .camel:hover{
+       transform: scale(1.2); 
+      }
+      .chameleon:hover{
+        transform: scale(1.2); 
+       }
+       .Frog:hover{
+        transform: scale(1.2); 
+       }
+       .Crane:hover{
+        transform: scale(1.2); 
+       }
+       a:link{
+       color: rgb(89, 0, 255);  
+       }
+       a:visited{
+        color:aqua
+       }
